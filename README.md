@@ -22,6 +22,7 @@ Create react application code with the following code.
 ```
 npx create-react-app ui
 cd ui
+npm install react-router-dom
 npm start
 ```
 
