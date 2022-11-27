@@ -1,16 +1,8 @@
 
 ## How to run this code
 
-In one terminal window, start the UI. Note, updates to files will refresh the app automatically.
 ```
-cd ui && yarn start
-```
-
-In another service, start the API service.
-```
-cd api
-source venv/bin/activate
-flask run --no-debugger
+docker-compose up
 ```
 
 ## How this was created

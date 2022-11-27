@@ -1,0 +1,11 @@
+services:
+  api:
+    build:
+      context: api
+      dockerfile: Dockerfile
+  ui:
+    build:
+      context: ui
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
