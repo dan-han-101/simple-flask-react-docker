@@ -1,9 +1,23 @@
 
+## How to run this code
+
+In one terminal window, start the UI. Note, updates to files will refresh the app automatically.
+```
+cd ui && yarn start
+```
+
+In another service, start the API service.
+```
+cd api
+source venv/bin/activate
+flask run --no-debugger
+```
+
 ## How this was created
 
 ### UI code
 
-Create react application code with the following code. 
+Create react application code with the following code.
 
 ```
 npx create-react-app ui
