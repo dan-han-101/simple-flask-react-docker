@@ -6,8 +6,10 @@ This project can be used as a starting point for real applications, but I recomm
 ## How to run this code
 
 ```
-docker-compose up
+docker-compose up -d
 ```
+
+You should then be able to view the site at http://localhost:3000/ .
 
 ## How this was created
 
