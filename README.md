@@ -9,7 +9,7 @@ This project can be used as a starting point for real applications, but I recomm
 docker-compose up -d
 ```
 
-You should then be able to view the site at http://localhost:3000/ .
+You should then be able to view the site at http://localhost:3003 .
 
 ## How this was created
 
